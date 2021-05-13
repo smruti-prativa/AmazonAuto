@@ -27,6 +27,6 @@ public class BaseTest {
 	
 	@AfterTest
 	public void postConditions() {
-		//driver.close();
+		driver.close();
 	}
 }
