@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class OnlineShoppingPage {
 	WebDriver driver;
@@ -42,6 +43,9 @@ public class OnlineShoppingPage {
 	@FindBy(xpath = "(//input[@value='Delete'])[1]")
 	private WebElement deleteFirstFrmCart;
 	
+	@FindBy(id="productTitle")
+	private WebElement productSelected;
+	
 	public OnlineShoppingPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -70,6 +74,7 @@ public class OnlineShoppingPage {
         		break;
         	}
     	}
+        Assert.assertTrue(productSelected.getText().contains(item), productSelected.getText()+" dosn't contain "+item);
 		addToCart.click();
 		proceedToBuy.click();
 	}

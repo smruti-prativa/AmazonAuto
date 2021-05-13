@@ -16,7 +16,7 @@ public class AmazonTest extends BaseTest {
 		OnlineShoppingPage oSP = new OnlineShoppingPage(driver);
 		oSP.searchItem("Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with");
 		oSP.clickOnItem("Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with");
-		oSP.addItemToCart("Buy Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys");
+		oSP.addItemToCart("Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys");
 		oSP.selectAddress();
 		oSP.selectPaymentType("Other UPI Apps");
 		
