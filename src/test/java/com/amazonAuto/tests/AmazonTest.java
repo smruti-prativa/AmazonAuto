@@ -4,14 +4,15 @@ import org.testng.annotations.Test;
 
 import com.amazonAuto.pages.LoginPage;
 import com.amazonAuto.pages.OnlineShoppingPage;
-import com.amazonAuto.pages.Utilities;
+import com.amazonAuto.utilities.ConfigPropLoader;
+import com.amazonAuto.utilities.Utilities;
 
 
 public class AmazonTest extends BaseTest {
 	@Test
 	public void test() throws InterruptedException {
 		com.amazonAuto.pages.LoginPage loginPage = new LoginPage(driver);
-		loginPage.login("9090587221", "India@2021!");
+		loginPage.login(ConfigPropLoader.username, ConfigPropLoader.password);
 
 		OnlineShoppingPage oSP = new OnlineShoppingPage(driver);
 		oSP.searchItem("Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with");

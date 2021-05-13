@@ -1,0 +1,4 @@
+2021-05-13 09:46:31,591 - com.amazonAuto.utilities.ConfigPropLoader -INFO - The config file path is: C:\Users\Chintu\git\AmazonAuto\src\main\resources\config.properties
+2021-05-13 09:46:39,115 - com.amazonAuto.tests.BaseTest -INFO - The base URL is:https://www.amazon.in/
+2021-05-13 09:46:41,370 - com.amazonAuto.pages.LoginPage -INFO - Loged in using username:9090587221 and password: India@2021!
+2021-05-13 09:47:11,471 - com.amazonAuto.tests.BaseTest -INFO - Closing all the browsers

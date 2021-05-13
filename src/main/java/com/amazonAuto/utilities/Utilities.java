@@ -1,4 +1,4 @@
-package com.amazonAuto.pages;
+package com.amazonAuto.utilities;
 
 import org.openqa.selenium.WebDriver;
 
