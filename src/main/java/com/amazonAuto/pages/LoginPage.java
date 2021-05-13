@@ -7,8 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import com.amazonAuto.utilities.ConfigPropLoader;
-
 public class LoginPage {
 	WebDriver driver;
 	@FindBy(xpath = "//span[text()='Hello, Sign in']")

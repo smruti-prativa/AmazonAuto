@@ -1,4 +1,33 @@
-2021-05-13 09:46:31,591 [main] INFO com.amazonAuto.utilities.ConfigPropLoader - The config file path is: C:\Users\Chintu\git\AmazonAuto\src\main\resources\config.properties
-2021-05-13 09:46:39,115 [main] INFO com.amazonAuto.tests.BaseTest - The base URL is:https://www.amazon.in/
-2021-05-13 09:46:41,370 [main] INFO com.amazonAuto.pages.LoginPage - Loged in using username:9090587221 and password: India@2021!
-2021-05-13 09:47:11,471 [main] INFO com.amazonAuto.tests.BaseTest - Closing all the browsers
+2021-05-13 11:40:04,249 [main] INFO com.amazonAuto.utilities.ConfigPropLoader - The config file path is: C:\Users\Chintu\git\AmazonAuto\src\main\resources\config.properties
+2021-05-13 11:40:18,786 [main] INFO com.amazonAuto.tests.BaseTest - The base URL is:https://www.amazon.in/
+2021-05-13 11:40:22,517 [main] INFO com.amazonAuto.pages.LoginPage - Loged in using username:9090587221 and password: India@2021!
+2021-05-13 11:40:30,842 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Searched item: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with
+2021-05-13 11:40:31,099 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on item: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with
+2021-05-13 11:40:43,389 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on add to cart of item:Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys
+2021-05-13 11:40:45,995 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on proceed to buy of item:Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys
+2021-05-13 11:40:48,482 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Selected 1st delivery Address:
+2021-05-13 11:40:48,567 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on continue button
+2021-05-13 11:40:50,503 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Selected payment method type: Other UPI Apps
+2021-05-13 11:40:50,571 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:40:52,052 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:40:54,361 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:40:56,896 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Go to cart
+2021-05-13 11:40:57,193 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Deleted 1st item from the cart
+2021-05-13 11:40:58,686 [main] INFO com.amazonAuto.tests.BaseTest - Closing all the browsers
+2021-05-13 11:43:26,592 [main] INFO com.amazonAuto.utilities.ConfigPropLoader - The config file path is: C:\Users\Chintu\git\AmazonAuto\src\main\resources\config.properties
+2021-05-13 11:43:32,795 [main] INFO com.amazonAuto.tests.BaseTest - The base URL is:https://www.amazon.in/
+2021-05-13 11:43:35,877 [main] INFO com.amazonAuto.pages.LoginPage - Loged in using username:9090587221 and password: India@2021!
+2021-05-13 11:43:42,027 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Searched item: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with
+2021-05-13 11:43:43,218 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on item: Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with
+2021-05-13 11:43:46,886 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Page title: Amazon.in: Buy Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys & with Rupee Key Online at Low Prices in India | ZEBRONICS Reviews & Ratings
+2021-05-13 11:43:48,864 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on add to cart of item:Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys
+2021-05-13 11:43:52,588 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on proceed to buy of item:Zebronics ZEB-KM2100 Multimedia USB Keyboard Comes with 114 Keys Including 12 Dedicated Multimedia Keys
+2021-05-13 11:43:57,129 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Selected 1st delivery Address:
+2021-05-13 11:43:57,213 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Clicked on continue button
+2021-05-13 11:43:58,603 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Selected payment method type: Other UPI Apps
+2021-05-13 11:43:58,658 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:44:00,722 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:44:02,727 [main] INFO com.amazonAuto.utilities.Utilities - Go to back page
+2021-05-13 11:44:04,859 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Go to cart
+2021-05-13 11:44:05,032 [main] INFO com.amazonAuto.pages.OnlineShoppingPage - Deleted 1st item from the cart
+2021-05-13 11:44:06,171 [main] INFO com.amazonAuto.tests.BaseTest - Closing all the browsers
